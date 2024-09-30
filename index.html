@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to My Blog</h1>
+    </header>
+
+    <section class="blog-posts">
+        <article>
+            <h2>My First Blog Post: A Journey into Web Development</h2>
+            <p>Learning web development has been a transformative experience for me. When I first started, I had no idea how websites were built or how the internet worked behind the scenes. It seemed like a vast, complex world. But as I dove into the basics, I quickly realized that web development is a creative and empowering skill that anyone can learn with enough practice.</p>
+            
+            <!-- Hidden content -->
+            <div id="more-content-2" style="display: none;">
+                <p>The first major breakthrough came when I learned about HTML, the structure of all web pages. Understanding how elements like headings, paragraphs, images, and links fit together to create a cohesive page was a huge step. Then, I moved on to CSS, where I could really let my creativity shine. CSS allowed me to change colors, layouts, fonts, and even animations. I was no longer building a skeleton; I was breathing life into it with design.</p>
+
+                <p>However, the most exciting part was learning JavaScript. JavaScript is what makes websites interactive. From simple features like dropdown menus to complex functionalities like form validation and animations, JavaScript brought my websites to life. I learned how to manipulate the Document Object Model (DOM), handle events, and even perform asynchronous tasks like fetching data from servers.</p>
+
+                <p>The journey wasn’t always smooth. I often struggled with understanding some of the more complex concepts, like responsive design or the box model in CSS. But through persistence, trial and error, and lots of online tutorials, I made steady progress. Eventually, I could build responsive websites that looked good on all devices. This was especially satisfying because I understood how to use media queries, flexible grid systems, and other CSS techniques to make my websites adapt to different screen sizes.</p>
+
+                <p>In the end, learning web development has been a highly rewarding experience. I’ve gained not only technical skills but also the ability to solve problems creatively. Every new website or feature I build teaches me something new, and I look forward to continuing this journey, improving my skills, and sharing my knowledge through this blog.</p>
+            </div>
+
+            <!-- Read More button -->
+            <button onclick="toggleContent('more-content-2')" id="read-more-btn-2">Read More</button>
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Blog</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
